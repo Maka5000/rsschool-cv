@@ -44,7 +44,7 @@ function isPangram(string){
   var split_string = [];
   
   for (i in string){
-    if(string[i] === " " || string[i] === "."){
+    if(string[i] === " " || string[i] === "." || typeof string[i] === "number"){
       /* pass */
     } else {
       split_string.push(string[i].toLowerCase())
