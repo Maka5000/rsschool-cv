@@ -30,11 +30,10 @@ I was born in 09.30.2001 in the country of Kazakhstan, in the city of Astana. At
 ![Vue](https://img.shields.io/badge/-Vue-090909?style=for-the-badge&logo=Vue.js)
 ![SQL](https://img.shields.io/badge/-SQL-090909?style=for-the-badge&logo=mysql)
 
+
 ## **Code example:**
 
-**Detect Pangram KATA from CODEWARS:** A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
-
-Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
+**Detect Pangram KATA from CODEWARS:** Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
 
 ```JavaScript
 function isPangram(string){
@@ -62,3 +61,22 @@ function isPangram(string){
 
 };
 ```
+
+
+## **Education:**
+
+
+### *Master's degree:*
+
+- Turan-Astana University program: "Information Systems" (in progress)
+
+### *Courses:*
+
+- HTML and CSS course on the [Stepik](https://stepik.org) (completed)
+- RS School Course "JS / Front-End Stage 0" (in progress)
+
+## **Languages:**
+
+- Kazakh - Native
+- Russian - Intermediate / Upper-intermediate (2nd language)
+- English - Pre intermediate (A2)
