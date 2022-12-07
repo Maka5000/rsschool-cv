@@ -3,9 +3,9 @@
 
 ## **Contacts:**
 
-![Gmail](https://img.shields.io/badge/Gmail-mak.khas01@gmail.com-090909?style=social&logo=Gmail&logoColor=red)
-![Discord](https://img.shields.io/badge/Discord-Maka2223-090909?style=social&logo=Discord&logoColor=blue)
-![Github](https://img.shields.io/badge/Github-Maka5000-090909?style=social&logo=Github&logoColor=black)
+**E-mail:** mak.khas01@gmail.com <br>
+**Phone:** +7 (775) 796 3210 <br>
+**Discord:** Maka#2223 <br>
 
 
 ## **Briefly about myself**:
@@ -29,3 +29,36 @@ I was born in 09.30.2001 in the country of Kazakhstan, in the city of Astana. At
 ![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=blue)
 ![Vue](https://img.shields.io/badge/-Vue-090909?style=for-the-badge&logo=Vue.js)
 ![SQL](https://img.shields.io/badge/-SQL-090909?style=for-the-badge&logo=mysql)
+
+## **Code example:**
+
+**Detect Pangram KATA from CODEWARS:** A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
+
+Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
+
+```JavaScript
+function isPangram(string){
+  const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
+                  "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u",
+                  "v", "w", "x", "y", "z"];
+  
+  var split_string = [];
+  
+  for (i in string){
+    if(string[i] === " " || string[i] === "."){
+      /* pass */
+    } else {
+      split_string.push(string[i].toLowerCase())
+    }
+  };
+  
+  for (var j = 0; j < alphabet.length; j++) {
+    if (split_string.indexOf(alphabet[j]) < 0) {
+      return false;
+    } 
+  };
+  
+  return true;
+
+};
+```
