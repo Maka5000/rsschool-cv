@@ -291,12 +291,8 @@
         display: flex;
         flex-wrap: wrap;
     }
-
-    .page-navigation {
-        display: none;
-    }
     
-    .responsive-navbar {
+    .page-navigation  {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
