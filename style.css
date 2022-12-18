@@ -46,7 +46,9 @@
     background-color: var(--navigation-color);
 }
 
-.swicher {
+.switcher {
+    width: 32px;
+    height: 32px;
     transition: .2s ease-in-out;
 }
 
