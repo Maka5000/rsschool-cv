@@ -1,1 +1,1 @@
-# rsschool-cv
+https://maka5000.github.io/rsschool-cv/
