@@ -216,6 +216,30 @@
     margin-bottom: 10px;
 }
 
+.projects {
+    display: grid;
+    margin: 0 45px;
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.projects li {
+    list-style: none;
+    text-align: center;
+}
+
+.project-image {
+    height: 128px;
+    border: 2px solid;
+    border-color: var(--titles-color);
+    transition: .2s ease-in-out;
+}
+
+.project-image:hover {
+    filter: drop-shadow(0px 0px 5px gray);
+}
+
 .skills-icon {
     width: 32px;
     height: 32px;
@@ -302,5 +326,17 @@
 
     .switcher {
         align-content: center;
+    }
+
+    .projects {
+        display: block;
+    }
+
+    .project-image {
+        height: 128px;
+    }
+
+    .project-image {
+        height: 256px;
     }
 }
